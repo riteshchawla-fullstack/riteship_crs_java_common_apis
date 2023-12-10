@@ -1,0 +1,9 @@
+<archetype>
+  <id>RiteShip_CRS_Java_Common_APIs</id>
+  <sources>
+    <source>src/main/java/App.java</source>
+  </sources>
+  <testSources>
+    <source>src/test/java/AppTest.java</source>
+  </testSources>
+</archetype>

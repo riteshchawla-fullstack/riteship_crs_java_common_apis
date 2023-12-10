@@ -1,0 +1,38 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.riteship.campus.recruitment.systems</groupId>
+  <artifactId>common-java-files-and-APIs</artifactId>
+  <version>1.0-SNAPSHOT</version>
+  <packaging>jar</packaging>
+  <name>RiteShip_CRS_Java_Common_APIs</name>
+  <description>RiteShip_CRS_Java_Common_APIs</description>
+  <properties>
+    <java.version>17</java.version>
+    <spring-cloud-services.version>4.0.3</spring-cloud-services.version>
+    <spring-cloud.version>2022.0.4</spring-cloud.version>
+    <spring-shell.version>3.1.4</spring-shell.version>
+  </properties>
+  <url>http://maven.apache.org</url>
+  <dependencies>
+    <!-- https://mvnrepository.com/artifact/javax.persistence/javax.persistence-api -->
+    <dependency>
+      <groupId>javax.persistence</groupId>
+      <artifactId>javax.persistence-api</artifactId>
+      <version>2.2</version>
+    </dependency>
+
+  </dependencies>
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <configuration>
+          <source>17</source>
+          <target>17</target>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+</project>
